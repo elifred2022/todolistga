@@ -1,0 +1,4 @@
+.contenedorMain{
+    background-color: blueviolet;
+    height: calc(100vh - 8em);
+}
