@@ -2,7 +2,8 @@ import "./Header.css";
 const Header =()=>{
     return( 
     <div className="contenedorHeader">
-         <h1>Proyecto Final Integrador</h1>
+        <img className="imgTodoList" src="./img/todoList.png" alt="todoList" />
+        <h1>Proyecto Final Integrador</h1>
     </div>
     )}
 export default Header;

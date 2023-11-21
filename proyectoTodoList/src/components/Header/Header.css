@@ -1,7 +1,12 @@
 .contenedorHeader{
-    /* height: 2rem; */
     width: 100vw;
     height: 4em;
-    background-color: pink;
-    
+    background-color: rgb(192, 255, 210);
+    text-align: center;
+}
+
+.imgTodoList{
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
 }
