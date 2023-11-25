@@ -2,7 +2,7 @@ import "./Main.css";
 const Main =()=>{
     return( 
     <div className="contenedorMain">
-        <h3>este es el Main</h3>
+        <img src="../public/img/hoja.jpg" alt="imagen de hoja rayada" />
     </div>
     )}
 export default Main;

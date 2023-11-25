@@ -1,4 +1,12 @@
 .contenedorMain{
-    background-color: blueviolet;
-    height: calc(100vh - 8em);
+    border-radius: 7px;
+    min-height: calc(100vh - 8em);
+    width: 70%;
+}
+
+.contenedorMain img{
+    max-width: 100%;
+    border-radius: 7px;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
