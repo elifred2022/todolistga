@@ -46,7 +46,6 @@ function Tarea() {
                         <li key={tarea.id} style={{ textDecoration: tarea.completado ? "line-through" : "none" }}>{tarea.texto}</li>
                         <button onClick={() => terminarTarea(tarea.id)} >Terminado</button>
                         <button onClick={() => eliminarTarea(tarea.id)}>Eliminar</button>
-
                     </div>
 
                 ))}
