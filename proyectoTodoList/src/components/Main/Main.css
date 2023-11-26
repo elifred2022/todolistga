@@ -9,4 +9,9 @@
     border-radius: 7px;
     margin-top: 2em;
     margin-bottom: 3em;
+    z-index: 0;
+}
+
+.contenedorLista{
+    z-index: 1;
 }
