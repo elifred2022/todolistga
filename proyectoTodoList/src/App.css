@@ -1,10 +1,9 @@
 body, h1 , strong{
-  font-family:'Arvo', serif;
-}
+  font-family: 'Courier Prime', monospace;}
 
 body {
   line-height: 1;
-  background-image:url("../public/img/fondoMadera.jpg");
+  background-image:url("/img/fondoMadera.jpg");
   background-image:cover;
   background-repeat: no-repeat;
 }
