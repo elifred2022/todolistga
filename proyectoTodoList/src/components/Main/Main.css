@@ -1,30 +1,9 @@
 .contenedorMain{
     border-radius: 7px;
-    min-height: calc(100vh - 8em);
+    min-height: 100vh;
     width: 70%;
     background-image: url(../public/img/hoja.jpg);
     background-size: auto 100%;
     background-repeat: no-repeat;
 
-}
-
-/* .contenedorMain img{
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 2em;
-    margin-bottom: 3em;
-    z-index: 0;
-}
-
-.contenedorLista{
-    z-index: 1;
-    font-size: 40px;
-    background-color: antiquewhite;
-    /* background-image:url(/proyectoTodoList/public/img/hoja.jpg); */
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
 }
