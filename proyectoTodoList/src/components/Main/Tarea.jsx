@@ -83,49 +83,10 @@ function Tarea() {
         <div className='contenedorListaTareas'>
             <ul >
                 {tareas.map((tarea) => (
-                    <div className='listaTareas'>
-                        <div className='contenedorCheckbox'>
-
-                            <input
-                                className='checkbox'
-                                type="radio"
-                                name="tareaTerminada"
-                                id="tareaTerminada"
-                                onClick={() => terminarTarea(tarea.id)}
-                            />
-
-                        </div>
-                        <li
-                            className='tarea'
-                            key={tarea.id}
-                            style={{ textDecoration: tarea.completado ? "line-through" : "none" }}>
-
-                            {tarea.editar ? (
-                                <>
-                                    <input
-                                        className='tareaEditar'
-                                        value={inputEditado}
-                                        onChange={(e) => setInputEditado(e.currentTarget.value)}
-                                    />
-                                </>
-                            ) :
-                                <>
-                                    {tarea.texto}
-                                </>
-                            }
-
-                        </li>
-                        <div className='contenedorBotoner'>
-                            {tarea.editar
-                                ?
-                                < button onClick={() => guardarTarea(tarea.id)} ><img src={Guardar} alt="icono editar" /></button>
-                                :
-                                < button className='botonEditar' onClick={() => editarTarea(tarea.id)} ><img src={Boligrafo} alt="icono editar" /></button>
-                            }
-
-                            <button className='botonEliminar' onClick={() => eliminarTarea(tarea.id)}><img src={Eliminar} alt="icono editar" /></button>
-                        </div>
-
+                    <div>
+                        <li key={tarea.id} style={{ textDecoration: tarea.completado ? "line-through" : "none" }}>{tarea.texto}</li>
+                        <button onClick={() => terminarTarea(tarea.id)} >Terminado</button>
+                        <button onClick={() => eliminarTarea(tarea.id)}>Eliminar</button>
                     </div>
 
                 ))
